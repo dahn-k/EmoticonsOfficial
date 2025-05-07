@@ -32,6 +32,7 @@ body{
     text-align: center;
 }
 
+
 #header h1{
     text-align: center;
     font-family: silkscreen;
@@ -170,6 +171,53 @@ hr{
 
 #orgs h3{
     margin-top: 0px;
+}
+
+.ig{
+    color: #5E5768;
+    text-align: center;
+    font-family: lazy-dog;
+}
+
+#can-i-center{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 6rem; */
+    margin-right: 0.5rem;
+}
+
+#sticker-container{
+    display: flex;
+    align-items: column;
+    flex-wrap: wrap;
+}
+
+.sticker-pair img{
+    width: 14rem;
+    margin: 2rem;
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sticker-pair{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.sticker-pair button{
+    color: #5E5768;
+    border-radius: 8px;
+    height: 2rem;
+    width: 6rem;
+    border-color: #9FA2B2;
+}
+
+.sticker-pair button:hover{
+    background-color: #5E5768;
+    color: white;
+    cursor: pointer;
 }
 
 @media(max-width: 828px){
