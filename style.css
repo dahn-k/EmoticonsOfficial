@@ -183,7 +183,6 @@ hr{
     display: flex;
     justify-content: space-around;
     /* padding-left: 6rem; */
-    margin-right: 0.5rem;
 }
 
 #sticker-container{
@@ -193,7 +192,7 @@ hr{
 }
 
 .sticker-pair img{
-    width: 14rem;
+    width: 12rem;
     margin: 2rem;
     border-radius: 40px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -204,6 +203,7 @@ hr{
     align-items: center;
     flex-direction: row;
     
+    
 }
 
 .sticker-pair button{
@@ -212,6 +212,7 @@ hr{
     height: 2rem;
     width: 6rem;
     border-color: #9FA2B2;
+    padding-left: 0;
 }
 
 .sticker-pair button:hover{
